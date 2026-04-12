@@ -1,0 +1,19 @@
+.dance {
+    background-image: url(../../../public/assets/dance-background.jpg);
+}
+
+.dance h1 {
+    color: rgb(53, 53, 53);
+}
+
+.about-dance-second {
+    background-color: rgb(53, 53, 53);
+}
+
+.about-dance-second h2{
+    color: #aaaaaa;
+}
+.about-dance-second p{
+    width: 40%;
+    color: #838383;
+}

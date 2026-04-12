@@ -1,0 +1,35 @@
+body {
+  color: white;
+}
+
+.heading-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 170px;
+  background-color: rgb(53, 53, 53);
+  /* padding: 60px; */
+}
+
+.heading-page-image img {
+  width: 35rem;
+  display: block;
+}
+
+.heading-page-content {
+  width: 100%;
+}
+
+.heading-page h1 {
+  font-size: 190px;
+  line-height: 1;
+  margin: 0 0 20px 0;
+}
+
+.heading-page p {
+  max-width: 80%;
+  color: lightgray;
+  font-size: medium;
+  line-height: 1.6;
+  margin: 0;
+}

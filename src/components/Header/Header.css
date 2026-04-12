@@ -1,0 +1,18 @@
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(68, 68, 68);
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+
+}
+
+.header-name {
+  margin: 0;
+}

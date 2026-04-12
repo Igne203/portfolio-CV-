@@ -1,0 +1,37 @@
+.music {
+  background-image: url(/assets/guitar-orchestra.jpg);
+}
+
+.music h1 {
+  color: #aaaaaa;
+}
+.about-music-second {
+  background-color: #aaaaaa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 4rem;
+  padding-bottom: 10rem;
+}
+
+.about-music-second h2 {
+  color: rgb(53, 53, 53);
+}
+
+.about-music-second p {
+  width: 40%;
+  color: rgb(75, 75, 75);
+  font-size: 1.25rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+/* #block-paragraph {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+} */
+
+.videos {
+  display: flex;
+  gap: 2rem;
+}

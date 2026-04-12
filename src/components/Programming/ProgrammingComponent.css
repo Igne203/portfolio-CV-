@@ -1,0 +1,23 @@
+.about-programming {
+  margin-top: 3rem;
+  margin-bottom: 10rem;
+
+}
+
+.projects {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  flex-direction: row;
+}
+
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  color: rgb(204, 204, 204);
+}
+
+

@@ -1,0 +1,23 @@
+.nav-block {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
+
+.nav-links .nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links .nav-link.active {
+  color: white;
+  text-decoration: underline;
+}

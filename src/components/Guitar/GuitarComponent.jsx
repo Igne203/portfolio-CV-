@@ -2,6 +2,8 @@ import "./GuitarComponent.css";
 import LinkImageComponent from "../LinkImage/LinkImage";
 
 function AboutMusic() {
+  const baseUrl = import.meta.env.BASE_URL;
+
   return (
     <>
       <div className="music img-background">
@@ -19,19 +21,19 @@ function AboutMusic() {
         </p>
         <div className="videos">
           <LinkImageComponent
-            imageSrc="/assets/First-video.png"
+            imageSrc={`${baseUrl}assets/First-video.png`}
             altText="Guitar Performance Video"
             linkUrl="https://www.facebook.com/reel/863995728996952"
           />
           <LinkImageComponent
-            imageSrc="/assets/Second-video.png"
+            imageSrc={`${baseUrl}assets/Second-video.png`}
             altText="Guitar Performance Video"
-            linkUrl="/assets/Second-Guitar-Video.mp4"
+            linkUrl={`${baseUrl}assets/Second-Guitar-Video.mp4`}
           />
           <LinkImageComponent
-            imageSrc="/assets/Third-video.png"
+            imageSrc={`${baseUrl}assets/Third-video.png`}
             altText="Guitar Performance Video"
-            linkUrl="/assets/Third-Guitar-Video.mp4"
+            linkUrl={`${baseUrl}assets/Third-Guitar-Video.mp4`}
           />
         </div>
       </div>

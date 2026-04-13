@@ -2,6 +2,8 @@ import "./DanceComponent.css";
 import LinkImageComponent from "../LinkImage/LinkImage";
 
 function AboutDance() {
+  const baseUrl = import.meta.env.BASE_URL;
+
   return (
     <>
       <div className="dance img-background">
@@ -20,7 +22,7 @@ function AboutDance() {
         <h2>Watch me dance</h2>
 
         <a href="https://www.instagram.com/p/DQZOlUWDW3k/" target="_blank" rel="noopener noreferrer">
-          <img src="/assets/Dance-Reel.png" alt="Dance Performance Video" />
+          <img src={`${baseUrl}assets/Dance-Reel.png`} alt="Dance Performance Video" />
         </a>
       </div>
     </>

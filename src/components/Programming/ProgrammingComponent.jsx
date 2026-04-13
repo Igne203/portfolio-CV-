@@ -2,6 +2,8 @@ import "./ProgrammingComponent.css";
 import LinkImageComponent from "../LinkImage/LinkImage";
 
 function AboutProgramming() {
+  const baseUrl = import.meta.env.BASE_URL;
+
   return (
     <div className="about-programming block">
       <h2>My Work</h2>
@@ -11,16 +13,16 @@ function AboutProgramming() {
         <div className="projects">
           <div className="project-name">
             <LinkImageComponent
-            imageSrc="/assets/html-css-project.png"
+            imageSrc={`${baseUrl}assets/html-css-project.png`}
             altText="HTML-CSS-Project"
-            linkUrl="/HTML-CSS-Project/index.html"
+            linkUrl={`${baseUrl}HTML-CSS-Project/index.html`}
           />
           <p>HTML-CSS Project</p>
           </div>
           
           <div className="project-name">
             <LinkImageComponent
-            imageSrc="/assets/character-catalog-crud.png"
+            imageSrc={`${baseUrl}assets/character-catalog-crud.png`}
             altText="Character-Catalog-CRUD"
             linkUrl="https://igne203.github.io/React_Frontend_CRUD/"
           />
@@ -28,7 +30,7 @@ function AboutProgramming() {
           </div>
           <div className="project-name">
             <LinkImageComponent
-            imageSrc="/assets/adopt-project .png"
+            imageSrc={`${baseUrl}assets/adopt-project .png`}
             altText="Adopt-Project"
             linkUrl="https://igne203.github.io/react_first_project/"
           />

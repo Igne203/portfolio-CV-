@@ -1,10 +1,12 @@
 import "./HeadingPage.css";
 
 function HeadingPage() {
+  const baseUrl = import.meta.env.BASE_URL;
+
   return (
     <div className="heading-page">
       <div className="heading-page-image">
-        <img src="/assets/portret1.jpg" alt="Portfolio portrait" />
+        <img src={`${baseUrl}assets/portret1.jpg`} alt="Portfolio portrait" />
       </div>
 
       <div className="heading-page-content">

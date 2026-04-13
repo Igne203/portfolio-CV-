@@ -15,7 +15,7 @@ function AboutProgramming() {
             <LinkImageComponent
             imageSrc={`${baseUrl}assets/html-css-project.png`}
             altText="HTML-CSS-Project"
-            linkUrl={`${baseUrl}HTML-CSS-Project/index.html`}
+            linkUrl="https://igne203.github.io/HTML-CSS/"
           />
           <p>HTML-CSS Project</p>
           </div>

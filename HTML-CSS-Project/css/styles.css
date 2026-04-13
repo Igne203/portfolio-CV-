@@ -1,0 +1,395 @@
+body {
+  margin: 0;
+}
+.main_banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url(../images/main_banner.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 975px;
+  color: var(--main-white, #fff);
+  font-family: "TT Norms";
+  padding: 0 30px;
+  margin-bottom: 200px;
+}
+
+header {
+  width: 100%;
+  min-height: 119px;
+  display: flex;
+  align-items: center;
+  border-bottom: solid 1px;
+}
+
+.header_left {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-right: solid 1px;
+}
+
+.header_right {
+  display: flex;
+  justify-self: flex-end;
+}
+
+.logo {
+  display: flex;
+  align-items: end;
+  width: 204px;
+  height: 63px;
+  flex-shrink: 0;
+  color: var(--main-white, #fff);
+  font-family: "TT Norms";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 100% */
+  padding: 28px 30px 28px 0;
+}
+.top_menu {
+  display: inline-flex;
+  align-items: center;
+  list-style: none;
+}
+
+.top_menu a {
+  padding: 30px 60px;
+  color: var(--main-white, #fff);
+  font-family: "Neue Machina";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: lowercase;
+  text-decoration: none;
+}
+
+.header_right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* max-width: 521px; */
+}
+
+.lang_switch {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 50px;
+}
+
+.lang_switch span {
+  margin-left: 5px;
+}
+
+.header_right button {
+  margin: 30px 0 30px 30px;
+  color: var(--main-white, #fff);
+  font-family: "Neue Machina";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  width: 254px;
+  height: 59px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: var(--main-blue, #2e2bd0);
+  border: none;
+}
+
+.main_banner h1 {
+  width: 892px;
+  color: var(--main-white, #fff);
+  font-family: "Neue Machina";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 130%; /* 65px */
+  margin-left: 120px;
+  max-width: 700px;
+}
+
+.round_button {
+  color: var(--main-white, #fff);
+  text-align: center;
+  font-family: "Neue Machina";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 39px */
+  text-transform: uppercase;
+  border-radius: 280px;
+  border: 2px solid var(--main-white, #fff);
+  width: 280px;
+  height: 280px;
+  flex-shrink: 0;
+  background-color: transparent;
+  margin-left: 120px;
+  margin-bottom: 50px;
+}
+
+h1 {
+  color: var(--main-light, #2f353f);
+  font-family: "Neue Machina";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 100px;
+}
+
+.container {
+  max-width: 1920px;
+  margin: auto;
+  padding: 0 5%;
+  margin-bottom: 250px;
+}
+
+.square {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  padding: 50px;
+}
+.goal_block {
+  min-height: 500px;
+  flex-shrink: 0;
+  border-radius: 70px;
+  border: 1px solid #95989d;
+  box-sizing: border-box;
+}
+
+.block_50 {
+  width: 50%;
+}
+.block_30 {
+  width: 33%;
+}
+
+.number {
+  display: flex;
+  align-self: flex-start;
+  color: var(--main-blue, #2e2bd0);
+  font-family: "Neue Machina";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.goal_title {
+  color: var(--main-light, #2f353f);
+  font-family: "Neue Machina";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 48px */
+}
+
+p {
+  color: rgba(47, 53, 63, 0.7);
+  font-family: Gilroy;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 45px */
+}
+
+.box_img {
+  background-size: cover;
+  background-position: center;
+}
+
+.box_6 {
+  width: 65%;
+}
+
+.box_3 {
+  background-image: url(/Igne/images/box_3.png);
+}
+
+.box_4 {
+  background-image: url(/Igne/images/box_4.png);
+}
+
+.box_7 {
+  background-image: url(/Igne/images/box_7.png);
+  width: 35%;
+}
+
+.advantages ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 305px;
+  flex-shrink: 0;
+  border-left: solid 3px rgba(47, 53, 63, 0.14);
+  color: rgba(47, 53, 63, 0.3);
+  margin-right: 200px;
+  max-height: 400px;
+  @media (max-width: 1600px) {
+    margin-right: 50px;
+  }
+}
+
+.advantages li {
+  padding-left: 50px;
+  min-width: 300px;
+  color: rgba(47, 53, 63, 0.3);
+  font-family: "Neue Machina";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin-left: -3px;
+}
+.advantages li:hover {
+  color: var(--main-blue, #2e2bd0);
+  border-left: solid 3px #2e2bd0;
+}
+.info_about_team {
+  width: 100%;
+  padding: 40px;
+  border-radius: 70px;
+  border: 1px solid rgba(47, 53, 63, 0.5);
+}
+
+.info_about_team h3 {
+  color: var(--main-blue, #2e2bd0);
+  font-family: "Neue Machina";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+p.small_text {
+  max-width: 720px;
+  font-size: 24px;
+}
+
+.info_about_team p {
+  font-size: 30px;
+}
+
+.advantages_content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 150px;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.how_we_work_wrapper {
+  align-items: start;
+}
+
+.how_we_work {
+  padding: 50px;
+  border-radius: 40px;
+  border: 1px solid rgba(47, 53, 63, 0.5);
+  box-sizing: border-box;
+  text-align: justify;
+}
+.how_we_work_wrapper .how_we_work:first-child {
+  border: none;
+}
+
+.how_we_work_wrapper .how_we_work:last-child {
+  border-radius: 40px;
+  background: linear-gradient(87deg, #2e2bd0 -68.23%, #7876f2 165.71%);
+  margin-top: 20px;
+  margin-left: 20px;
+  box-sizing: border-box;
+  width: calc(33% - 20px);
+  opacity: 0.8;
+}
+
+.how_we_work_wrapper .how_we_work:last-child p,
+.how_we_work_wrapper .how_we_work:last-child h6 {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+h6 {
+  color: var(--main-light, #2f353f);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Neue Machina";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 39px */
+}
+
+.container .round_button {
+  padding: 60px;
+  border-radius: 280px;
+  border: 2px solid var(--main-light, #2f353f);
+  color: var(--main-light, #2f353f);
+  text-align: center;
+  font-family: "Neue Machina";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 39px */
+  text-transform: uppercase;
+  margin-left: 0;
+}
+
+.tech_text {
+  margin-left: auto;
+  margin-right: 10%;
+  max-width: 634px;
+}
+
+.tech_img {
+  margin-top: 120px;
+  width: 100%;
+}
+
+h3 {
+  color: var(--main-light, #2f353f);
+  font-family: "Neue Machina";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 60px */
+}
+
+.industries_wrapper {
+  box-sizing: border-box;
+  flex-wrap: nowrap;
+}
+
+.industries_wrapper .block_30 {
+  margin-right: 50px;
+  
+}
+
+.industries_wrapper .block_30:last-child {
+  margin-right: 0;
+  
+}
+
+

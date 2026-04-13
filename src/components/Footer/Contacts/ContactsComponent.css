@@ -1,0 +1,14 @@
+.contacts-component {
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+
+}
+
+.contacts-component img {
+    width: 3rem;
+    height: 3rem;
+}

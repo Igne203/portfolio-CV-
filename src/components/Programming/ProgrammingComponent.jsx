@@ -7,23 +7,34 @@ function AboutProgramming() {
       <h2>My Work</h2>
       <p>A collection of projects I've worked on.</p>
 
+
         <div className="projects">
-          <LinkImageComponent
+          <div className="project-name">
+            <LinkImageComponent
             imageSrc="/assets/html-css-project.png"
             altText="HTML-CSS-Project"
             linkUrl="/HTML-CSS-Project/index.html"
           />
-
-          <LinkImageComponent
+          <p>HTML-CSS Project</p>
+          </div>
+          
+          <div className="project-name">
+            <LinkImageComponent
             imageSrc="/assets/character-catalog-crud.png"
             altText="Character-Catalog-CRUD"
             linkUrl="https://igne203.github.io/React_Frontend_CRUD/"
           />
-          <LinkImageComponent
+          <p>Character Catalog CRUD</p>
+          </div>
+          <div className="project-name">
+            <LinkImageComponent
             imageSrc="/assets/adopt-project .png"
             altText="Adopt-Project"
-            linkUrl=""
+            linkUrl="https://igne203.github.io/react_first_project/"
           />
+          <p>React Project</p>
+          </div>
+          
       </div>
     </div>
   );

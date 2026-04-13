@@ -1,6 +1,7 @@
 import HeadingPage from "../Heading/HeadingPage";
 import "./HomePage.css";
 import AboutPageMini from "../About/AboutPageMini";
+import Footer from "../../components/Footer/Footer";
 
 
 function HomePage() {
@@ -8,6 +9,7 @@ function HomePage() {
     <>
       <HeadingPage />
       <AboutPageMini />
+      <Footer />
     </>
   );
 }

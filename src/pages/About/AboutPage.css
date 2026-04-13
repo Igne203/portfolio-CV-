@@ -1,0 +1,21 @@
+.about-programming-one {
+    background-image: url('/assets/background-img-two.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+
+}
+
+.about-programming-one h1 {
+    color: rgb(53, 53, 53);
+}
+
+.about-programming-two {
+    background-color: rgb(53, 53, 53);
+    padding: 5rem 2rem;
+}
+
+.about-programming-two p {
+    width: 55%;
+}
+

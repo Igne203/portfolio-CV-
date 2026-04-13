@@ -26,12 +26,12 @@ function AboutMusic() {
           <LinkImageComponent
             imageSrc="/assets/Second-video.png"
             altText="Guitar Performance Video"
-            linkUrl=""
+            linkUrl="/assets/Second-Guitar-Video.mp4"
           />
           <LinkImageComponent
             imageSrc="/assets/Third-video.png"
             altText="Guitar Performance Video"
-            linkUrl=""
+            linkUrl="/assets/Third-Guitar-Video.mp4"
           />
         </div>
       </div>

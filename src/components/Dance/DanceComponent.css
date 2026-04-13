@@ -1,19 +1,42 @@
 .dance {
-    background-image: url(../../../public/assets/dance-background.jpg);
+  background-image: url(../../../public/assets/dance-background.jpg);
 }
 
 .dance h1 {
-    color: rgb(53, 53, 53);
+  color: #686868;
 }
 
-.about-dance-second {
-    background-color: rgb(53, 53, 53);
+.dance-content-one {
+  background-color: #686868;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 8rem;
 }
 
-.about-dance-second h2{
-    color: #aaaaaa;
+.dance-content-one p {
+  width: 50%;
+  font-size: 1.25rem;
+  color: rgb(204, 204, 204);
 }
-.about-dance-second p{
-    width: 40%;
-    color: #838383;
+
+.dance-content-two h2 {
+  font-size: 6rem;
+  color: #aaaaaa;
 }
+
+.dance-content-two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 170px;
+  height: fit-content;
+  background-color: rgb(53, 53, 53);
+  padding-right: 10rem;
+  padding-left: 10rem;
+}
+
+.dance-content-two a img {
+  object-fit: cover;
+}
+

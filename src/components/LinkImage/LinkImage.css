@@ -1,5 +1,9 @@
 .link-image {
-    width: 35rem;
-    height: 20rem;
-    border-radius: 5%;
+  width: 35rem;
+  height: 20rem;
+  border-radius: 5%;
+  @media screen and (max-width: 900px) {
+    width: 90%;
+    height: auto;
+  }
 }

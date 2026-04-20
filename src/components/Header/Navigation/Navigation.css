@@ -6,10 +6,13 @@
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 4rem;
   margin: 0;
   padding: 0;
   background: transparent;
+  @media screen and (max-width: 600px) {
+    gap: 1rem;
+  }
 }
 
 .nav-links .nav-link {

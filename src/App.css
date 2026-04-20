@@ -1,6 +1,7 @@
 body {
   margin: 0;
   background-color: #686868;
+  font-size: 16px;
 }
 
 #root {
@@ -15,6 +16,11 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  @media screen and (max-width: 900px) {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
 }
 
 .block h2 {
@@ -38,7 +44,22 @@ body {
 }
 
 .img-background h1 {
-  font-size: 20rem;
+  /* font-size: 20rem; */
   margin-top: 2rem;
   margin-bottom: 0;
+}
+
+h1 {
+  font-size: 20rem;
+  line-height: 1;
+  margin: 0 0 3rem 0;
+  @media screen and (max-width: 1400px) {
+    font-size: 12rem;
+  }
+  @media screen and (max-width: 900px) {
+    font-size: 8rem;
+  }
+  @media screen and (max-width: 600px) {
+    font-size: 4rem;
+  }
 }

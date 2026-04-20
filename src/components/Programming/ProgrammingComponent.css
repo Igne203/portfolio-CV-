@@ -1,7 +1,9 @@
 .about-programming {
   margin-top: 3rem;
   margin-bottom: 10rem;
-
+    @media screen and (max-width: 900px) {
+    margin: 0rem;
+  }
 }
 
 .projects {
@@ -10,6 +12,12 @@
   margin-top: 2rem;
   margin-bottom: 3rem;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.projects .project-name a {
+  display: flex;
+  justify-content: center;
 }
 
 p {
@@ -19,7 +27,3 @@ p {
   margin-top: 1rem;
   color: rgb(204, 204, 204);
 }
-
-
-
-

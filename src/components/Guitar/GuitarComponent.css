@@ -12,6 +12,9 @@
   justify-content: center;
   padding-top: 4rem;
   padding-bottom: 10rem;
+  @media screen and (max-width: 900px) {
+     padding-bottom: 2rem;
+  }
 }
 
 .about-music-second h2 {
@@ -24,6 +27,9 @@
   font-size: 1.25rem;
   text-align: center;
   padding-bottom: 2rem;
+  @media screen and (max-width: 900px) {
+    width: 90%;
+  }
 }
 /* #block-paragraph {
   width: 100%;
@@ -34,4 +40,11 @@
 .videos {
   display: flex;
   gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.videos a {
+  display: flex;
+  justify-content: center;
 }

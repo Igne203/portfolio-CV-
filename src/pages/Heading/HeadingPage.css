@@ -5,31 +5,64 @@ body {
 .heading-page {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 170px;
+  justify-content: space-between;
   background-color: rgb(53, 53, 53);
-  /* padding: 60px; */
+  gap: 170px;
+  @media screen and (max-width: 1400px) {
+    padding-top: 3rem;
+    gap: 5rem;
+  }
+  @media screen and (max-width: 1100px) {
+    padding-top: 5rem;
+    align-items: flex-start;
+    gap: unset;
+  }
+  @media screen and (max-width: 900px) {
+    padding-top: 5rem;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }
 
 .heading-page-image img {
   width: 35rem;
   display: block;
+  @media screen and (max-width: 1100px) {
+    width: 20rem;
+  }
 }
 
 .heading-page-content {
   width: 100%;
+  @media screen and (max-width: 1100px) {
+    text-align: center;
+  }
 }
 
 .heading-page h1 {
-  font-size: 190px;
+  font-size: 10rem;
   line-height: 1;
-  margin: 0 0 20px 0;
+  margin: 0 0 3rem 0;
+  @media screen and (max-width: 1400px) {
+    font-size: 6rem;
+  }
+  @media screen and (max-width: 1100px) {
+    font-size: 4rem;
+  }
+  @media screen and (max-width: 900px) {
+    margin-top: 2rem;
+  }
 }
 
 .heading-page p {
-  max-width: 80%;
+  /* max-width: 80%; */
   color: lightgray;
-  font-size: medium;
+  font-size: 1.25rem;
   line-height: 1.6;
   margin: 0;
+
+  @media screen and (max-width: 1100px) {
+    padding: 0 2rem;
+  }
 }

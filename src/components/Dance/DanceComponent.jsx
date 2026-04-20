@@ -20,10 +20,18 @@ function AboutDance() {
 
       <div className="dance-content-two">
         <h2>Watch me dance</h2>
-
-        <a href="https://www.instagram.com/p/DQZOlUWDW3k/" target="_blank" rel="noopener noreferrer">
-          <img src={`${baseUrl}assets/Dance-Reel.png`} alt="Dance Performance Video" />
-        </a>
+        <div>
+          <a
+            href="https://www.instagram.com/p/DQZOlUWDW3k/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={`${baseUrl}assets/Dance-Reel.png`}
+              alt="Dance Performance Video"
+            />
+          </a>
+        </div>
       </div>
     </>
   );

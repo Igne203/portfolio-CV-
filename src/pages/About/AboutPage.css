@@ -1,21 +1,55 @@
 .about-programming-one {
-    background-image: url('/portfolio-CV-/assets/background-img-two.jpg');
-    background-size: cover;
-    background-position: center;
-    min-height: 100vh;
-
+  background-image: url("/portfolio-CV-/assets/background-img-two.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
 }
 
 .about-programming-one h1 {
-    color: rgb(53, 53, 53);
+  color: rgb(53, 53, 53);
 }
 
 .about-programming-two {
-    background-color: rgb(53, 53, 53);
-    padding: 5rem 2rem;
+  background-color: rgb(53, 53, 53);
+  padding: 5rem 2rem;
 }
 
 .about-programming-two p {
-    width: 55%;
+  width: 55%;
 }
 
+.dance-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  background-color: #686868;
+  padding: 4rem 3rem;
+  height: fit-content;
+  padding-right: 10rem;
+  padding-left: 10rem;
+}
+
+.dance-image {
+  display: block;
+  object-fit: cover;
+  max-width: 60%;
+}
+
+.dance-content p {
+  display: block;
+  max-width: 700px;
+  font-size: 1.25rem;
+  line-height: 1.7;
+  color: rgb(204, 204, 204);
+  margin: 0;
+}
+
+.dance-content p .inline-link {
+  color: rgb(204, 204, 204);
+  text-decoration: underline;
+}
+
+.dance-content p .inline-link:hover {
+  opacity: 0.8;
+}

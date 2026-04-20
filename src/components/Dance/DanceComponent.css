@@ -29,11 +29,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 170px;
+  gap: 4rem;
   height: fit-content;
   background-color: rgb(53, 53, 53);
   padding-right: 10rem;
   padding-left: 10rem;
+}
+
+.dance-content-two img {
+  display: block;
+  object-fit: cover;
 }
 
 .dance-content-two a img {

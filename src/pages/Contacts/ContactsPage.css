@@ -8,6 +8,24 @@
 
 .contacts h1 {
   padding-left: 2rem;
-  font-size: 7rem;
+  font-size: 5rem;
+  margin-top: 7rem;
   margin-bottom: 3rem;
+}
+
+.contacts-content {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  gap: 1rem;
+  min-width: 60%;
+}
+
+.contacts-content img {
+  width: 30vh;
+  height: 30vh;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
 }

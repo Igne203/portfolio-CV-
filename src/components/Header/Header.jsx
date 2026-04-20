@@ -4,9 +4,9 @@ import NavigationComponent from "./Navigation/Navigation";
 function Header() {
   return (
     <header className="site-header">
-      <h3 className="header-name">
+      <p className="header-name">
         Ignė Viktorija <br /> Bagdonaitė
-      </h3>
+      </p>
       <NavigationComponent />
     </header>
   );

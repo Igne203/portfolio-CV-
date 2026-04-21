@@ -19,6 +19,7 @@ body {
   }
   @media screen and (max-width: 900px) {
     padding-top: 5rem;
+    padding-bottom: 5rem;
     align-items: flex-start;
     justify-content: center;
     flex-wrap: wrap;

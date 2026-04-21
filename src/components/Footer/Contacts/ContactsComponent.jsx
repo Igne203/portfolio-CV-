@@ -7,13 +7,25 @@ function ContactsComponent() {
     <>
       <div className="contacts-component block">
         <a href="https://www.instagram.com/igne_v_b/">
-          <img src={`${baseUrl}assets/instagram.svg`} alt="Instagram" />
+          <img
+            src={`${baseUrl}assets/instagram.svg`}
+            rel="noopener noreferrer"
+            alt="Instagram"
+          />
         </a>
         <a href="https://www.facebook.com/igne.bagdonaite">
-          <img src={`${baseUrl}assets/facebook.svg`} alt="Facebook" />
+          <img
+            src={`${baseUrl}assets/facebook.svg`}
+            rel="noopener noreferrer"
+            alt="Facebook"
+          />
         </a>
         <a href="https://www.linkedin.com/in/ign%C4%97-viktorija-bagdonait%C4%97-1a2447328/">
-          <img src={`${baseUrl}assets/linkedin.svg`} alt="LinkedIn" />
+          <img
+            src={`${baseUrl}assets/linkedin.svg`}
+            rel="noopener noreferrer"
+            alt="LinkedIn"
+          />
         </a>
       </div>
     </>

@@ -7,11 +7,13 @@ function ContactsPage() {
   return (
     <>
       <div className="contacts block">
-        <h1>CONTACTS</h1>
         <div className="contacts-content">
-          <img src={`${baseUrl}assets/portret1.jpg`} alt="Portfolio portrait" />
+          <h1>CONTACTS</h1>
           <p>Feel free to reach out!</p>
         </div>
+
+          <img src={`${baseUrl}assets/portret1.jpg`} alt="Portfolio portrait" />
+
       </div>
       <ContactsComponent />
     </>

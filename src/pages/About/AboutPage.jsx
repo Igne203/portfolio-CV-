@@ -20,6 +20,15 @@ function AboutPage() {
         </p>
       </div>
       <AboutProgramming />
+      <div className="about-programming-two block">
+        <p>
+          I am familiar with several programming languages, including C++,
+          Python, and JavaScript, which I have mentioned earlier. These
+          languages have helped me build a solid foundation in programming and
+          develop a broader understanding of both problem-solving and web
+          development.
+        </p>
+      </div>
 
       <AboutDance />
       <div className="dance-content">
@@ -55,6 +64,16 @@ function AboutPage() {
         </p>
       </div>
       <AboutMusic />
+      <div className="music-content block">
+        <p>
+          I'm passionate about classical music. I graduated from Taurage Art
+          School with top grades in music theory, history and guitar. This year
+          I reaplied to study piano.
+        </p>
+        <div>
+          <img src={`${baseUrl}assets/piano.jpg`} alt="Piano Practice" />
+        </div>
+      </div>
     </>
   );
 }

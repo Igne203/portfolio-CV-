@@ -1,5 +1,5 @@
 .about-programming-one {
-  background-image: url("/portfolio-CV-/assets/background-img-two.jpg");
+  background-image: url("/portfolio-CV-/assets/about-me.jpg");
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -77,4 +77,42 @@
 
 .dance-content p .inline-link:hover {
   opacity: 0.8;
+}
+
+.music-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 3rem;
+  @media screen and (max-width: 900px) {
+    max-width: 90%;
+    flex-wrap: wrap;
+  }
+}
+
+.music-content p {
+  max-width: 50%;
+  font-size: 1.25rem;
+  line-height: 1.5;;
+  margin: 0;
+  @media screen and (max-width: 900px) {
+    max-width: 90%;
+  }
+}
+.music-content img{
+  width: 50vh;
+  height: 50vh;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  @media screen and (max-width: 900px) {
+    width: 40vh;
+    height: 40vh;
+  }
+  @media screen and (max-width: 600px) {
+    width: 30vh;
+    height: 30vh;
+  }
+
 }

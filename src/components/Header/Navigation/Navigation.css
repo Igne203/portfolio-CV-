@@ -10,6 +10,7 @@
   margin: 0;
   padding: 0;
   background: transparent;
+  text-align: center;
   @media screen and (max-width: 600px) {
     gap: 1rem;
   }

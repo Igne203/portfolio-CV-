@@ -95,6 +95,7 @@
   max-width: 50%;
   font-size: 1.25rem;
   line-height: 1.5;;
+  text-align: center;
   margin: 0;
   @media screen and (max-width: 900px) {
     max-width: 90%;

@@ -6,8 +6,7 @@ import AboutMusic from "../../components/Guitar/GuitarComponent";
 function AboutPage() {
   const baseUrl = import.meta.env.BASE_URL;
   window.scrollTo({
-    top: 100,
-    left: 100,
+    top: 0,
     behavior: "smooth",
   });
   return (
